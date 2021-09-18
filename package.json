@@ -12,7 +12,6 @@
   "devDependencies": {},
   "dependencies": {
     "knex": "0.21.18",
-    "mysql": "^2.18.1",
     "mysql2": "^2.3.0",
     "sqlite3": "5.0.0",
     "strapi": "3.6.8",
