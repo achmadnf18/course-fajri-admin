@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "courses",
+  "info": {
+    "name": "courses"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "category_id": {
+      "model": "courses"
+    },
+    "rating": {
+      "type": "decimal"
+    },
+    "is_deleted": {
+      "type": "boolean"
+    },
+    "deleted_by": {
+      "type": "integer"
+    }
+  }
+}
