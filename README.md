@@ -1,3 +1,16 @@
-# Strapi application
+## Installation
+```
+yarn --no-optional
+```
 
-A quick description of your strapi application
+## Setup local database
+
+Create local database on mysql
+```
+CREATE DATABASE coursedb;
+```
+
+# Run project
+```
+yarn develop
+```
