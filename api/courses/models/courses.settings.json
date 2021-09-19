@@ -47,6 +47,9 @@
     },
     "instructor_id": {
       "model": "users"
+    },
+    "deleted_at": {
+      "type": "datetime"
     }
   }
 }

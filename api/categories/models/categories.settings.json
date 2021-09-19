@@ -20,6 +20,15 @@
     },
     "slug": {
       "type": "string"
+    },
+    "deleted_at": {
+      "type": "datetime"
+    },
+    "deleted_by": {
+      "model": "users"
+    },
+    "is_deleted": {
+      "type": "boolean"
     }
   }
 }
